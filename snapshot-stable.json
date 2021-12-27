@@ -1,0 +1,22 @@
+{
+  "name": "2.4.2-beta-850a860",
+  "timestamp": "2021-12-27T19:22:04Z",
+  "notes": "No release notes available.\n",
+  "libraries": [
+    {
+      "name": "chunky-core-2.4.2-beta-850a860.jar",
+      "md5": "18C93A70BD721250340CF4BAC975F164",
+      "size": 1691152
+    },
+    {
+      "name": "commons-math3-3.2.jar",
+      "md5": "AAA32530C0F744813570FF73DB018698",
+      "size": 1692782
+    },
+    {
+      "name": "fastutil-8.4.4.jar",
+      "md5": "7D189AD790C996B2C9A7AD076524586C",
+      "size": 19870806
+    }
+  ]
+}

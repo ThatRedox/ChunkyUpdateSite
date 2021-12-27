@@ -5,16 +5,19 @@
   "path": "ChunkyLauncher.jar",
   "channels": [
     {
+      "id": "stable",
       "name": "Stable",
       "path": "latest.json",
       "notes": "Latest stable version of Chunky."
     },
     {
+      "id": "snapshot-stable",
       "name": "Beta",
       "path": "snapshot-stable.json",
       "notes": "Latest beta version of Chunky. Snapshots of next stable patch or release candidates."
     },
     {
+      "id": "snapshot",
       "name": "Snapshot",
       "path": "snapshot.json",
       "notes": "Latest nightly snapshot of Chunky."

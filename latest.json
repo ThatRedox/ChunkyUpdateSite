@@ -1,0 +1,22 @@
+{
+  "name": "2.4.4",
+  "timestamp": "2022-10-16T20:51:27Z",
+  "notes": "It's update time! Thanks to everyone who contributed to this update. :tada: This update mainly fixes a few bugs (and a regression in 2.4.3), while we are preparing bigger new features in the next minor release.\n\n### :gift: New features\n* Add a _Show players_ checkbox to the map settings to toggle the player icons\n\n### :nail_care: Improvements\n* Improve labels and tooltips in the UI\n\n### :bug: Bugfixes\n* Fix x/z position of player heads\n* Fix horizon offset being removed when rendering starts\n* Fix preview render grid not being aligned to chunks\n* Fix sky mode settings not being updated in the UI after loading a scene\n* Fix empty chunks being selected when switching the world\n* Fix loading worlds without water with the  octree\n* Prevent out-of-bounds access of some textures\n",
+  "libraries": [
+    {
+      "name": "chunky-core-2.4.4.jar",
+      "md5": "961DF4118B79BA0630D73F767FAF7632",
+      "size": 1733244
+    },
+    {
+      "name": "fastutil-8.4.4.jar",
+      "md5": "7D189AD790C996B2C9A7AD076524586C",
+      "size": 19870806
+    },
+    {
+      "name": "commons-math3-3.2.jar",
+      "md5": "AAA32530C0F744813570FF73DB018698",
+      "size": 1692782
+    }
+  ]
+}

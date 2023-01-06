@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Windows",
+        "regex": "Windows.*",
+        "archs": [
+            {
+                "name": "x64",
+                "regex": "amd64",
+                "url": "https://download2.gluonhq.com/openjfx/17.0.2/openjfx-17.0.2_windows-x64_bin-sdk.zip"
+            },
+            {
+                "name": "x86",
+                "regex": "x86",
+                "url": "https://download2.gluonhq.com/openjfx/17.0.2/openjfx-17.0.2_windows-x86_bin-sdk.zip"
+            }
+        ]
+    },
+    {
+        "name": "Linux",
+        "regex": "((Linux)|(LINUX)).*",
+        "archs": [
+            {
+                "name": "x64",
+                "regex": "amd64|x86_64",
+                "url": "https://download2.gluonhq.com/openjfx/17.0.2/openjfx-17.0.2_linux-x64_bin-sdk.zip"
+            },
+            {
+                "name": "aarch64",
+                "regex": "aarch64",
+                "url": "https://download2.gluonhq.com/openjfx/17.0.2/openjfx-17.0.2_linux-aarch64_bin-sdk.zip"
+            },
+            {
+                "name": "arm32",
+                "regex": "arm32",
+                "url": "https://download2.gluonhq.com/openjfx/17.0.2/openjfx-17.0.2_linux-arm32_bin-sdk.zip"
+            }
+        ]
+    },
+    {
+        "name": "macOS",
+        "regex": "Mac.*",
+        "archs": [
+            {
+                "name": "x64",
+                "regex": "amd64|x86_64",
+                "url": "https://download2.gluonhq.com/openjfx/17.0.2/openjfx-17.0.2_osx-x64_bin-sdk.zip"
+            },
+            {
+                "name": "aarch64",
+                "regex": "aarch64",
+                "url": "https://download2.gluonhq.com/openjfx/17.0.2/openjfx-17.0.2_osx-aarch64_bin-sdk.zip"
+            }
+        ]
+    }
+]

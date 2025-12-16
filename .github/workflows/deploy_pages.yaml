@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Clone update site repository branch gh-pages
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
         with:
           path: ./gh-pages
 
@@ -21,7 +21,7 @@ jobs:
           mkdir lib
 
       - name: Clone update site repository branch master
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
         with:
           path: ./master
 
@@ -30,7 +30,7 @@ jobs:
           cp -r ./master/site/* ./gh-pages/
 
       - name: Clone update site repository branch release-stable
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
         with:
           path: ./stable
           ref: release-stable
@@ -41,7 +41,7 @@ jobs:
           cp -r ./stable/lib/ ./gh-pages/
 
       - name: Clone update site repository branch release-beta
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
         with:
           path: ./beta
           ref: release-beta
@@ -52,7 +52,7 @@ jobs:
           cp -r ./beta/lib/ ./gh-pages/
 
       - name: Clone update site repository branch release-snapshot
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
         with:
           path: ./snapshot
           ref: release-snapshot
